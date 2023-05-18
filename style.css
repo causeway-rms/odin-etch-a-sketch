@@ -14,3 +14,7 @@
     flex-shrink: 0;
     box-sizing: border-box;
 }
+
+.change-color {
+    background-color: red;
+}

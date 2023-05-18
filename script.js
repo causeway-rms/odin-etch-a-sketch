@@ -4,3 +4,11 @@ for (let i = 0; i < 256; i++) {
     container.appendChild(pixels);
     pixels.setAttribute('class', 'pixels');
 }
+
+const cells = document.getElementsByClassName('pixels');
+
+for (let i = 0; i < cells.length; i++) {
+    cells[i].addEventListener('mouseenter', function() {
+        cells[i].classList.add('change-color');
+    })
+}
