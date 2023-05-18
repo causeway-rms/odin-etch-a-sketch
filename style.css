@@ -1,0 +1,16 @@
+.container {
+    width: 482px;
+    height: 482px;
+    border: solid 0.5px gray;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.pixels {
+    width: 30px;
+    height: 30px;
+    border: solid 0.5px gray;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
