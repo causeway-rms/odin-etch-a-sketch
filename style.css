@@ -1,4 +1,5 @@
 .container {
+    margin-top: 30px;
     width: 482px;
     height: 482px;
     border: solid 0.5px gray;
@@ -8,8 +9,6 @@
 }
 
 .pixels {
-    width: 30px;
-    height: 30px;
     border: solid 0.5px gray;
     flex-shrink: 0;
     box-sizing: border-box;
